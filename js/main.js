@@ -29,5 +29,5 @@ if (userage < 65) {
 
 }
 
-const console = document.querySelector("#text");
-console.log(console);
+const testo = document.querySelector("#text");
+console.log(testo);

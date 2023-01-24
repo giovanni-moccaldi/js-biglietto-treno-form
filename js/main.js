@@ -28,3 +28,6 @@ if (userage < 65) {
     price = price - oversixtyfive;
 
 }
+
+const console = document.querySelector("#console");
+console.log(console);

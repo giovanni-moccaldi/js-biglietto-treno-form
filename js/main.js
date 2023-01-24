@@ -1,9 +1,9 @@
 // Il numero di chilometri da percorrere
-const userkm = parseInt(prompt("quanti km vuoi fare?"));
+const userkm = parseInt("quanti km vuoi fare?");
 console.log(`quanti km `, userkm);
 
 // Età del passeggero
-const userage = parseInt(prompt("quanti anni hai?"));
+const userage = parseInt("quanti anni hai?");
 console.log(`quanti anni `, userage);
 const pricekm = 0.21;
 let price = userkm * pricekm;
@@ -29,5 +29,5 @@ if (userage < 65) {
 
 }
 
-const console = document.querySelector("#proof");
+const console = document.querySelector("#text");
 console.log(console);

@@ -30,13 +30,13 @@ if (userage < 65) {
 }
 
 const testo = document.querySelector("#text");
-testo.addEventListener{
+testo.addEventListener(
     'click',
-        function () {
-            console.log(`quanti anni `, userage);
-            console.log(`quanti km `, userkm);
-            console.log(price);
+    function () {
+        console.log(`quanti anni `, userage);
+        console.log(`quanti km `, userkm);
+        console.log(price);
 
 
-        }
-}
+    }
+)

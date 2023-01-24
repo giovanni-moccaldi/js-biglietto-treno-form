@@ -29,5 +29,5 @@ if (userage < 65) {
 
 }
 
-const console = document.querySelector("#console");
+const console = document.querySelector("#proof");
 console.log(console);
